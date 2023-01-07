@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+/* style header */
+.header{
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.content{
+    padding: 18px 12px 15px 18px;
+    position: absolute;
+    left:45%;
+    right: 5%;
+    top:50%;
+   direction: rtl;
+}
+.header-title{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.btn-primary{
+    height: 60pxpx;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    border: 0;
+    padding:18px 35px 21px 36px;
+    margin-top: 15px;
+}
+/* styless main section */
+.faillur-year{
+    display: flex;
+    margin-bottom: 20px;
+}
+.failur-content{
+margin-top: 300px;
+padding: 15px 17px;
+}
+.faillur-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.faillur-para{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.li-style{
+    line-height: 25px;
+    list-style:circle;
+}
+.my-plan-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.my-plan-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35px;
+    margin-right: 26px;
+}
+.plans{
+    padding: 15px 18px;
+    line-height: 25px;
+}
+.keep-positive{
+    margin-top: 25px;
+    margin-left: 50px;
+    background-image: url('images/watch.png');
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 25px;
+    
+}
+.keep-positive-content{
+padding: 20px;
+padding-top: 200px;
+}
+.keep-positive-title{
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 16px;
+    color: #FFFFFF;   
+}
+.btn-second{
+    height: 60pxpx;
+    border-radius: 5px;
+    background:#FFFFFF;;
+    color:#FD6E0A ;
+    font-weight: 700;
+    font-size: 32px;
+    border: 0;
+    padding:18px 35px 21px 36px;
+    margin-top: 15px;
+}
+/* Style Footer */
+.footer{
+    background: #151414;
+    display: flex;
+    justify-content:space-around;
+    padding: 15px 19px;
+}
+.future{
+    color:#FFFFFF;
+padding: 20px;
+}
+.footer .future h1{
+    margin-bottom: 19px;
+}
+.footer .future p{
+    line-height: 25px;
+    margin-bottom: 26px;
+}
+.subscrive{
+    padding: 20px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
